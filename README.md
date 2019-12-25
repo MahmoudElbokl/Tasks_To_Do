@@ -4,15 +4,14 @@ Tasks To Do is a simple to do app that helps you organize your tasks, achieve yo
 
 ## ScreenShots
 
-This project is a starting point for a Flutter application.
 ![Tasks To Do ScreenShot](https://i.imgur.com/c8jv51r.jpg)
+![Tasks To Do ScreenShot](https://i.imgur.com/c8jv51r.jpg)
+![Tasks To Do ScreenShot](https://i.imgur.com/2kN7jHr.jpg)
+![Tasks To Do ScreenShot](https://i.imgur.com/sZuBqGC.jpg)
+![Tasks To Do ScreenShot](https://i.imgur.com/MWTpxUG.jpg)
+![Tasks To Do ScreenShot](https://i.imgur.com/gkiKlpr.jpg)
+![Tasks To Do ScreenShot](https://i.imgur.com/e9SE70o.jpg)
+![Tasks To Do ScreenShot](https://i.imgur.com/fUKvFpA.jpg)
+![Tasks To Do ScreenShot](https://i.imgur.com/byLyo97.jpg)
 
-https://i.imgur.com/c8jv51r.jpg
-https://i.imgur.com/c8jv51r.jpg
-https://i.imgur.com/2kN7jHr.jpg
-https://i.imgur.com/sZuBqGC.jpg
-https://i.imgur.com/MWTpxUG.jpg
-https://i.imgur.com/gkiKlpr.jpg
-https://i.imgur.com/e9SE70o.jpg
-https://i.imgur.com/fUKvFpA.jpg
-https://i.imgur.com/byLyo97.jpg
+
