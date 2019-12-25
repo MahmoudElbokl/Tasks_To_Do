@@ -1,16 +1,16 @@
 # tasks_to_do
 
-A new Flutter application.
+Tasks To Do is a simple to do app that helps you organize your tasks, achieve your personal goals and reflect on your life.
 
 ## Getting Started
 
 This project is a starting point for a Flutter application.
-
-A few resources to get you started if this is your first Flutter project:
-
-- [Lab: Write your first Flutter app](https://flutter.dev/docs/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://flutter.dev/docs/cookbook)
-
-For help getting started with Flutter, view our
-[online documentation](https://flutter.dev/docs), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+https://i.imgur.com/c8jv51r.jpg
+https://i.imgur.com/c8jv51r.jpg
+https://i.imgur.com/2kN7jHr.jpg
+https://i.imgur.com/sZuBqGC.jpg
+https://i.imgur.com/MWTpxUG.jpg
+https://i.imgur.com/gkiKlpr.jpg
+https://i.imgur.com/e9SE70o.jpg
+https://i.imgur.com/fUKvFpA.jpg
+https://i.imgur.com/byLyo97.jpg
