@@ -3,7 +3,7 @@
 Tasks To Do is a simple to do app that helps you organize your tasks, achieve your personal goals and reflect on your life.
 
 ## ScreenShots
-
+<img src="https://i.imgur.com/c8jv51r.jpg" width="200" height="200">
 ![Tasks To Do ScreenShot](https://i.imgur.com/c8jv51r.jpg =100x20)
 ![Tasks To Do ScreenShot](https://i.imgur.com/c8jv51r.jpg){ width=50% }
 ![Tasks To Do ScreenShot](https://i.imgur.com/2kN7jHr.jpg){ width=25% }
