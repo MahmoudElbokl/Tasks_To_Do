@@ -2,9 +2,11 @@
 
 Tasks To Do is a simple to do app that helps you organize your tasks, achieve your personal goals and reflect on your life.
 
-## Getting Started
+## ScreenShots
 
 This project is a starting point for a Flutter application.
+![Tasks To Do ScreenShot](https://i.imgur.com/c8jv51r.jpg)
+
 https://i.imgur.com/c8jv51r.jpg
 https://i.imgur.com/c8jv51r.jpg
 https://i.imgur.com/2kN7jHr.jpg
