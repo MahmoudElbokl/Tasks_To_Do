@@ -4,7 +4,7 @@ Tasks To Do is a simple to do app that helps you organize your tasks, achieve yo
 
 ## ScreenShots
 
-![Tasks To Do ScreenShot](https://i.imgur.com/c8jv51r.jpg){:height="700px" width="400px"}
+![Tasks To Do ScreenShot](https://i.imgur.com/c8jv51r.jpg =100x20)
 ![Tasks To Do ScreenShot](https://i.imgur.com/c8jv51r.jpg){:height="400px" width="200px"}
 ![Tasks To Do ScreenShot](https://i.imgur.com/2kN7jHr.jpg)
 ![Tasks To Do ScreenShot](https://i.imgur.com/sZuBqGC.jpg)
