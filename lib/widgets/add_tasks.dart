@@ -12,7 +12,8 @@ class AddTask extends StatefulWidget {
 class _AddTaskState extends State<AddTask> {
   String formattedTimeOfDay;
   String newTaskTitle;
-  TimeOfDay selectedTime;
+
+//  TimeOfDay selectedTime;
   GlobalKey<FormState> _key = GlobalKey<FormState>();
 
   @override
@@ -62,16 +63,17 @@ class _AddTaskState extends State<AddTask> {
               FlatButton(
                 padding: EdgeInsets.all(0),
                 onPressed: () async {
-                  try {
-                    selectedTime = await showTimePicker(
-                      context: context,
-                      initialTime: TimeOfDay.now(),
-                    );
+                  TimeOfDay selectedTime = await showTimePicker(
+                    context: context,
+                    initialTime: TimeOfDay.now(),
+                  );
+                  if (selectedTime != null) {
+                    provider.setData(selectedTime);
                     final MaterialLocalizations localizations =
                         MaterialLocalizations.of(context);
                     formattedTimeOfDay =
                         localizations.formatTimeOfDay(selectedTime);
-                  } catch (e) {}
+                  }
                 },
                 child: Column(
                   crossAxisAlignment: CrossAxisAlignment.start,
@@ -95,6 +97,12 @@ class _AddTaskState extends State<AddTask> {
                   ],
                 ),
               ),
+              Provider.of<TaskData>(context).selected == false
+                  ? SizedBox.shrink()
+                  : Text(
+                      "Please Select Data",
+                      style: TextStyle(color: Colors.red),
+                    ),
               SizedBox(
                 height: 12.0,
               ),
@@ -109,14 +117,17 @@ class _AddTaskState extends State<AddTask> {
                 color: Colors.lightBlueAccent,
                 onPressed: () async {
                   if (_key.currentState.validate() &&
-                      (formattedTimeOfDay.isNotEmpty ||
-                          formattedTimeOfDay != null)) {
+                      formattedTimeOfDay != null) {
                     Task task = Task(
                         id: await provider.getNewId(),
                         title: newTaskTitle,
                         taskTime: formattedTimeOfDay);
                     provider.addTask(task);
                     Navigator.pop(context);
+                  }else{
+                    if (provider.dataSelected == null) {
+                      provider.setSelect(true);
+                    }
                   }
                 },
               ),

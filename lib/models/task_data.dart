@@ -1,3 +1,4 @@
+import 'package:flutter/material.dart';
 import 'package:tasks_to_do/database.dart';
 
 import 'task_model.dart';
@@ -11,6 +12,28 @@ class TaskData extends ChangeNotifier {
 
   int get taskCount => _tasks.length;
   TodoDatabase _database = TodoDatabase();
+
+  TimeOfDay _dateSelected;
+  bool _selected = false;
+
+  get selected {
+    return _selected;
+  }
+
+  setSelect(bool select) {
+    _selected = select;
+    notifyListeners();
+  }
+
+  get dataSelected {
+    return _dateSelected;
+  }
+
+  setData(TimeOfDay selectData) {
+    _dateSelected = selectData;
+    _selected = false;
+    notifyListeners();
+  }
 
   readToDoList() async {
     List allItems = await _database.getAllItem();
