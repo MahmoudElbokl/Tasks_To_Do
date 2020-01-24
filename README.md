@@ -1,16 +1,19 @@
 # tasks_to_do
 
-A new Flutter application.
+##### Tasks To Do is a simple to do app that helps you organize your tasks, achieve your personal goals and reflect on your life.
 
-## Getting Started
+## Video
+![Admin-page-app](https://i.imgur.com/a7evzz0.gif)
 
-This project is a starting point for a Flutter application.
+## ScreenShots
+<img src="https://i.imgur.com/c8jv51r.jpg" width="300" height="500">
+<img src="https://i.imgur.com/c8jv51r.jpg" width="300" height="500">
+<img src="https://i.imgur.com/2kN7jHr.jpg" width="300" height="500">
+<img src="https://i.imgur.com/sZuBqGC.jpg" width="300" height="500">
+<img src="https://i.imgur.com/MWTpxUG.jpg" width="300" height="500">
+<img src="https://i.imgur.com/gkiKlpr.jpg" width="300" height="500">
+<img src="https://i.imgur.com/e9SE70o.jpg" width="300" height="500">
+<img src="https://i.imgur.com/fUKvFpA.jpg" width="300" height="500">
+<img src="https://i.imgur.com/byLyo97.jpg" width="300" height="500">
 
-A few resources to get you started if this is your first Flutter project:
 
-- [Lab: Write your first Flutter app](https://flutter.dev/docs/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://flutter.dev/docs/cookbook)
-
-For help getting started with Flutter, view our
-[online documentation](https://flutter.dev/docs), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
